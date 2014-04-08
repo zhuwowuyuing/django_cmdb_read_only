@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/django_cmdb/piston
+END
+doc.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/21/trunk/django_cmdb/piston/doc.py
+END
+middleware.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/21/trunk/django_cmdb/piston/middleware.py
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/21/trunk/django_cmdb/piston/handler.py
+END
+authentication.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/21/trunk/django_cmdb/piston/authentication.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/21/trunk/django_cmdb/piston/test.py
+END
+oauth.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/django_cmdb/piston/oauth.py
+END
+decorator.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/21/trunk/django_cmdb/piston/decorator.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/21/trunk/django_cmdb/piston/models.py
+END
+handlers_doc.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/21/trunk/django_cmdb/piston/handlers_doc.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/django_cmdb/piston/forms.py
+END
+resource.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/django_cmdb/piston/resource.py
+END
+emitters.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/django_cmdb/piston/emitters.py
+END
+store.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/django_cmdb/piston/store.py
+END
+managers.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/django_cmdb/piston/managers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/django_cmdb/piston/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/django_cmdb/piston/utils.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/21/trunk/django_cmdb/piston/signals.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/21/trunk/django_cmdb/piston/tests.py
+END
+validate_jsonp.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/21/trunk/django_cmdb/piston/validate_jsonp.py
+END

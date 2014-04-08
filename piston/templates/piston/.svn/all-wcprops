@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/21/trunk/django_cmdb/piston/templates/piston
+END
+authorize_token.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/21/trunk/django_cmdb/piston/templates/piston/authorize_token.html
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/trunk/django_cmdb/cmdb/templatetags
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/18/trunk/django_cmdb/cmdb/templatetags/__init__.py
+END
+cmdb_tags.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/trunk/django_cmdb/cmdb/templatetags/cmdb_tags.py
+END

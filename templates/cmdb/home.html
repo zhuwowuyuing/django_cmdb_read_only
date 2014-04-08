@@ -1,0 +1,12 @@
+{% load cmdb_tags %}
+
+Welcome to django-cmdb
+
+{% get_device_classes as device_classes %}
+<ul>
+{% for d in device_classes %}
+<li><a href="{{ d.get_absolute_url }}">{{ d }}</a> - <a
+    href="/CMDB/AddCI/?path={{ d.path }}">Add New</a></li>
+{% endfor %}
+</ul>
+

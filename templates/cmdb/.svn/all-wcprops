@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb
+END
+ci-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/ci-view.html
+END
+device-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/device-view.html
+END
+model-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/model-view.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/home.html
+END
+os-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/os-view.html
+END
+server-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/server-view.html
+END
+company-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/company-view.html
+END
+location-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/18/trunk/django_cmdb/templates/cmdb/location-view.html
+END

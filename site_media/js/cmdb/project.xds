@@ -1,0 +1,984 @@
+{
+	"name": "project.xds",
+	"projectId": "ADDE0232-69AD-4D22-A2B8-3FD2C3C17F08",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"spacesToIndent": 4,
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.0/",
+		"exportPath": ".",
+		"lineEnding": "LF"
+	},
+	"xdsVersion": "xds-1.0.1.0c",
+	"components": [
+		{
+			"cid": "viewport",
+			"jsClass": "MyViewport",
+			"userConfig": {
+				"layout": "border"
+			},
+			"cn": [
+				{
+					"cid": "panel",
+					"jsClass": "MyPanel",
+					"userConfig": {
+						"layout": "auto",
+						"region": "center",
+						"title": "CMDB"
+					},
+					"cn": [
+						{
+							"cid": "panel",
+							"jsClass": "MyPanel1",
+							"userConfig": {
+								"title": "-ext-undefined-",
+								"id": "main_panel"
+							},
+							"cn": [
+								{
+									"cid": "toolbar",
+									"jsClass": "MyToolbar",
+									"dock": "tbar",
+									"userConfig": {
+										"id": "toolbar"
+									},
+									"cn": [
+										{
+											"cid": "buttongroup",
+											"jsClass": "MyButtonGroup",
+											"userConfig": {
+												"title": "-ext-undefined-",
+												"columns": "-ext-undefined-"
+											},
+											"cn": [
+												{
+													"cid": "button",
+													"jsClass": "MyButton1",
+													"userConfig": {
+														"text": "CMDB"
+													},
+													"cn": [
+														{
+															"cid": "menu",
+															"jsClass": "MyMenu1",
+															"dock": "menu",
+															"userConfig": {
+																"id": "cmdb_menu"
+															},
+															"cn": [
+																{
+																	"cid": "menuitem",
+																	"jsClass": "MyMenuItem12",
+																	"userConfig": {
+																		"text": "New Checklist"
+																	}
+																},
+																{
+																	"cid": "menuitem",
+																	"jsClass": "MyMenuItem2",
+																	"userConfig": {
+																		"text": "New Device"
+																	},
+																	"cn": [
+																		{
+																			"cid": "menu",
+																			"jsClass": "MyMenu2",
+																			"dock": "menu",
+																			"userConfig": {
+																				"id": "new_device_menu"
+																			},
+																			"cn": [
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Audio Visual/DVD Players"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Audio Visual/Plasma Screens"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Audio Visual/Slingbox"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Computers"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Convergence/Network"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Convergence/Telephony"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Drawing Tablet"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Monitors"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem1",
+																					"userConfig": {
+																						"text": "New /Devices/Network"
+																					}
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"cid": "menuitem",
+																	"jsClass": "MyMenuItem13",
+																	"userConfig": {
+																		"text": "New Incident"
+																	}
+																},
+																{
+																	"cid": "menuitem",
+																	"jsClass": "MyMenuItem11",
+																	"userConfig": {
+																		"text": "New Request For Change"
+																	}
+																},
+																{
+																	"cid": "menuitem",
+																	"jsClass": "MyMenuItem14",
+																	"userConfig": {
+																		"text": "Manage CMDB"
+																	},
+																	"cn": [
+																		{
+																			"cid": "menu",
+																			"jsClass": "MyMenu3",
+																			"dock": "menu",
+																			"userConfig": {
+																				"id": "manage_cmdb_menu"
+																			},
+																			"cn": [
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem15",
+																					"userConfig": {
+																						"text": "Manage /AuthenticationSources"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem15",
+																					"userConfig": {
+																						"text": "Manage /BackupSystems"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem15",
+																					"userConfig": {
+																						"text": "Manage /Company"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem15",
+																					"userConfig": {
+																						"text": "Manage /Company"
+																					}
+																				},
+																				{
+																					"cid": "menuitem",
+																					"jsClass": "MyMenuItem15",
+																					"userConfig": {
+																						"text": "Manage /Company"
+																					}
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"cid": "button",
+													"jsClass": "MyButton",
+													"userConfig": {
+														"id": "ci_menu_button",
+														"text": "Manage CI"
+													},
+													"cn": [
+														{
+															"cid": "menu",
+															"jsClass": "MyMenu",
+															"dock": "menu",
+															"userConfig": {
+																"id": "manage_ci_menu"
+															},
+															"cn": [
+																{
+																	"cid": "menuitem",
+																	"jsClass": "MyMenuItem",
+																	"userConfig": {
+																		"text": "Decommission CI"
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"cid": "buttongroup",
+											"jsClass": "MyButtonGroup1",
+											"userConfig": {
+												"title": "-ext-undefined-",
+												"y": "-ext-undefined-",
+												"columns": "-ext-undefined-"
+											},
+											"cn": [
+												{
+													"cid": "label",
+													"jsClass": "MyLabel",
+													"userConfig": {
+														"text": "Search"
+													}
+												},
+												{
+													"cid": "tbspacer",
+													"jsClass": "MySpacer",
+													"userConfig": {
+														"width": 10
+													}
+												},
+												{
+													"cid": "textfield",
+													"jsClass": "MyField28",
+													"userConfig": {
+														"id": "search_field",
+														"value": "Enter Search Term"
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"cid": "tabpanel",
+							"jsClass": "MyTabs",
+							"userConfig": {
+								"activeTab": 0,
+								"id": "tab_panel"
+							},
+							"cn": [
+								{
+									"cid": "panel",
+									"jsClass": "MyPanel3",
+									"userConfig": {
+										"title": "Details",
+										"padding": "-ext-undefined-",
+										"autoScroll": true
+									},
+									"cn": [
+										{
+											"cid": "form",
+											"jsClass": "MyForm",
+											"userConfig": {
+												"title": "-ext-undefined-",
+												"padding": "10px",
+												"autoScroll": true
+											},
+											"cn": [
+												{
+													"cid": "fieldset",
+													"jsClass": "MyFieldSet",
+													"userConfig": {
+														"title": "General",
+														"collapsible": true,
+														"animCollapse": true
+													},
+													"cn": [
+														{
+															"cid": "textfield",
+															"jsClass": "MyField6",
+															"userConfig": {
+																"fieldLabel": "Name",
+																"name": "name"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField7",
+															"userConfig": {
+																"fieldLabel": "Serial Number",
+																"name": "serial_number"
+															}
+														},
+														{
+															"cid": "combobox",
+															"jsClass": "MyCombo1",
+															"userConfig": {
+																"fieldLabel": "Company",
+																"name": "company"
+															}
+														},
+														{
+															"cid": "combobox",
+															"jsClass": "MyCombo2",
+															"userConfig": {
+																"fieldLabel": "Location",
+																"name": "location"
+															}
+														},
+														{
+															"cid": "combobox",
+															"jsClass": "MyCombo3",
+															"userConfig": {
+																"fieldLabel": "Model",
+																"name": "model"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField9",
+															"userConfig": {
+																"fieldLabel": "Machine Type",
+																"name": "machine_type"
+															}
+														},
+														{
+															"cid": "checkbox",
+															"jsClass": "MyCheckbox",
+															"userConfig": {
+																"fieldLabel": "Compliance In Scope",
+																"name": "in_scope",
+																"boxLabel": ""
+															}
+														},
+														{
+															"cid": "textarea",
+															"jsClass": "MyField12",
+															"userConfig": {
+																"fieldLabel": "IP Addresses",
+																"name": "ip_addresses"
+															}
+														},
+														{
+															"cid": "textarea",
+															"jsClass": "MyField10",
+															"userConfig": {
+																"fieldLabel": "Documentation URLs",
+																"name": "url"
+															}
+														},
+														{
+															"cid": "textarea",
+															"jsClass": "MyField18",
+															"userConfig": {
+																"fieldLabel": "Description",
+																"name": "description"
+															}
+														},
+														{
+															"cid": "textarea",
+															"jsClass": "MyField13",
+															"userConfig": {
+																"fieldLabel": "Alert Groups",
+																"name": "alert_group"
+															}
+														},
+														{
+															"cid": "textarea",
+															"jsClass": "MyField15",
+															"userConfig": {
+																"fieldLabel": "Notify Groups",
+																"name": "notify_group"
+															}
+														},
+														{
+															"cid": "textarea",
+															"jsClass": "MyField14",
+															"userConfig": {
+																"fieldLabel": "Escalation Groups",
+																"name": "escalation_group"
+															}
+														}
+													]
+												},
+												{
+													"cid": "fieldset",
+													"jsClass": "MyFieldSet1",
+													"userConfig": {
+														"title": "Asset Management",
+														"collapsible": true,
+														"animCollapse": true
+													},
+													"cn": [
+														{
+															"cid": "datefield",
+															"jsClass": "MyField17",
+															"userConfig": {
+																"fieldLabel": "Warranty Expire",
+																"name": "warranty_expire"
+															}
+														},
+														{
+															"cid": "datefield",
+															"jsClass": "MyField16",
+															"userConfig": {
+																"fieldLabel": "Purchase Date",
+																"name": "purchase_date"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField8",
+															"userConfig": {
+																"fieldLabel": "Department",
+																"name": "department"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField5",
+															"userConfig": {
+																"fieldLabel": "Asset Tag",
+																"name": "asset_tag"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField11",
+															"userConfig": {
+																"fieldLabel": "SOC/PO Number",
+																"name": "soc_number"
+															}
+														}
+													]
+												},
+												{
+													"cid": "fieldset",
+													"jsClass": "MyFieldSet2",
+													"userConfig": {
+														"title": "Server Information",
+														"animCollapse": true,
+														"collapsible": true
+													},
+													"cn": [
+														{
+															"cid": "combobox",
+															"jsClass": "MyCombo",
+															"userConfig": {
+																"fieldLabel": "Deployment Status",
+																"name": "deployment_status"
+															}
+														},
+														{
+															"cid": "combobox",
+															"jsClass": "MyCombo4",
+															"userConfig": {
+																"fieldLabel": "Operating System",
+																"name": "operating_system"
+															}
+														},
+														{
+															"cid": "combobox",
+															"jsClass": "MyCombo5",
+															"userConfig": {
+																"fieldLabel": "Authentication Source",
+																"name": "authentication_source"
+															}
+														}
+													]
+												},
+												{
+													"cid": "fieldset",
+													"jsClass": "MyFieldSet3",
+													"userConfig": {
+														"title": "Advanced",
+														"collapsible": true,
+														"animCollapse": true
+													},
+													"cn": [
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_1",
+																"fieldLabel": "Extension Attribute 1"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_2",
+																"fieldLabel": "Extension Attribute 2"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_3",
+																"fieldLabel": "Extension Attribute 3"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_4",
+																"fieldLabel": "Extension Attribute 4"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_5",
+																"fieldLabel": "Extension Attribute 5"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_6",
+																"fieldLabel": "Extension Attribute 6"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_7",
+																"fieldLabel": "Extension Attribute 7"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_8",
+																"fieldLabel": "Extension Attribute 8"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_9",
+																"fieldLabel": "Extension Attribute 9"
+															}
+														},
+														{
+															"cid": "textfield",
+															"jsClass": "MyField19",
+															"userConfig": {
+																"name": "extension_attribute_10",
+																"fieldLabel": "Extension Attribute 10"
+															}
+														},
+														{
+															"cid": "checkbox",
+															"jsClass": "MyCheckbox1",
+															"userConfig": {
+																"name": "extenstion_attribute_11",
+																"fieldLabel": "Extension Attribute 11",
+																"boxLabel": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"cid": "panel",
+									"jsClass": "MyPanel9",
+									"userConfig": {
+										"title": "Comments"
+									}
+								},
+								{
+									"cid": "panel",
+									"jsClass": "MyPanel10",
+									"userConfig": {
+										"title": "Files"
+									}
+								},
+								{
+									"cid": "panel",
+									"jsClass": "MyPanel4",
+									"userConfig": {
+										"title": "History"
+									},
+									"cn": [
+										{
+											"cid": "panel",
+											"jsClass": "MyPanel7",
+											"userConfig": {
+												"id": "history_panel",
+												"title": "",
+												"layout": "border",
+												"height": 400
+											},
+											"cn": [
+												{
+													"cid": "grid",
+													"jsClass": "MyGrid",
+													"userConfig": {
+														"region": "west",
+														"width": 514,
+														"store": "DeploymentStatusStore",
+														"title": ""
+													},
+													"cn": [
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn",
+															"userConfig": {
+																"header": "Date"
+															}
+														},
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn1",
+															"userConfig": {
+																"header": "User"
+															}
+														},
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn2",
+															"userConfig": {
+																"header": "Update"
+															}
+														}
+													]
+												},
+												{
+													"cid": "container",
+													"jsClass": "MyContainer",
+													"userConfig": {
+														"region": "center",
+														"id": "history_detail"
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"cid": "panel",
+									"jsClass": "MyPanel4",
+									"userConfig": {
+										"title": "Change"
+									},
+									"cn": [
+										{
+											"cid": "panel",
+											"jsClass": "MyPanel7",
+											"userConfig": {
+												"id": "change_panel",
+												"title": "",
+												"layout": "border",
+												"height": 400
+											},
+											"cn": [
+												{
+													"cid": "grid",
+													"jsClass": "MyGrid",
+													"userConfig": {
+														"region": "west",
+														"width": 514,
+														"store": "DeploymentStatusStore",
+														"title": ""
+													},
+													"cn": [
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn",
+															"userConfig": {
+																"header": "Date"
+															}
+														},
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn1",
+															"userConfig": {
+																"header": "User"
+															}
+														},
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn2",
+															"userConfig": {
+																"header": "Update"
+															}
+														}
+													]
+												},
+												{
+													"cid": "container",
+													"jsClass": "MyContainer",
+													"userConfig": {
+														"region": "center",
+														"id": "history_detail"
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"cid": "panel",
+									"jsClass": "MyPanel4",
+									"userConfig": {
+										"title": "Incidents"
+									},
+									"cn": [
+										{
+											"cid": "panel",
+											"jsClass": "MyPanel7",
+											"userConfig": {
+												"id": "incident_panel",
+												"title": "",
+												"layout": "border",
+												"height": 400
+											},
+											"cn": [
+												{
+													"cid": "grid",
+													"jsClass": "MyGrid",
+													"userConfig": {
+														"region": "west",
+														"width": 514,
+														"store": "DeploymentStatusStore",
+														"title": ""
+													},
+													"cn": [
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn",
+															"userConfig": {
+																"header": "Date"
+															}
+														},
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn1",
+															"userConfig": {
+																"header": "User"
+															}
+														},
+														{
+															"cid": "gridcolumn",
+															"jsClass": "MyColumn2",
+															"userConfig": {
+																"header": "Update"
+															}
+														}
+													]
+												},
+												{
+													"cid": "container",
+													"jsClass": "MyContainer",
+													"userConfig": {
+														"region": "center",
+														"id": "history_detail"
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"cid": "tree",
+					"jsClass": "MyTree",
+					"userConfig": {
+						"region": "west",
+						"width": 155,
+						"collapsible": true,
+						"id": "tree_panel",
+						"rootVisible": false
+					},
+					"cn": [
+						{
+							"cid": "asyncnode",
+							"dock": "root",
+							"userConfig": {
+								"text": "Root Node"
+							},
+							"cn": [
+								{
+									"cid": "asyncnode",
+									"dock": "root",
+									"userConfig": {
+										"text": "CMDB"
+									},
+									"cn": [
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "CMDB Browser",
+												"leaf": true
+											}
+										},
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "Systems",
+												"leaf": true
+											}
+										},
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "Help/Bugs",
+												"leaf": true
+											}
+										}
+									]
+								},
+								{
+									"cid": "asyncnode",
+									"dock": "root",
+									"userConfig": {
+										"text": "Reports"
+									}
+								},
+								{
+									"cid": "asyncnode",
+									"dock": "root",
+									"userConfig": {
+										"text": "Checklists"
+									}
+								},
+								{
+									"cid": "asyncnode",
+									"dock": "root",
+									"userConfig": {
+										"text": "Change Management"
+									},
+									"cn": [
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "Pending Approval",
+												"leaf": true
+											}
+										},
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "In Progress RFCs",
+												"leaf": true
+											}
+										},
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "Completed RFCs",
+												"leaf": true
+											}
+										},
+										{
+											"cid": "asyncnode",
+											"dock": "root",
+											"userConfig": {
+												"text": "Rejected RFCs",
+												"leaf": true
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"cid": "asynctreeloader",
+							"dock": "loader"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"cid": "arraystore",
+			"jsClass": "DeploymentStatusStore",
+			"userConfig": {
+				"storeId": "DeploymentStatusStore",
+				"autoLoad": true
+			},
+			"cn": [
+				{
+					"cid": "datafield",
+					"jsClass": "MyField4",
+					"userConfig": {
+						"name": "Awaiting Decommission"
+					}
+				},
+				{
+					"cid": "datafield",
+					"jsClass": "MyField5"
+				},
+				{
+					"cid": "datafield",
+					"jsClass": "MyField6"
+				},
+				{
+					"cid": "datafield",
+					"jsClass": "MyField7"
+				},
+				{
+					"cid": "datafield",
+					"jsClass": "MyField8"
+				}
+			]
+		}
+	]
+}

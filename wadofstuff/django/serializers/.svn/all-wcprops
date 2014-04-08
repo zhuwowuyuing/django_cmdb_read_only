@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/10/trunk/django_cmdb/wadofstuff/django/serializers
+END
+json.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/10/trunk/django_cmdb/wadofstuff/django/serializers/json.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/10/trunk/django_cmdb/wadofstuff/django/serializers/base.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/10/trunk/django_cmdb/wadofstuff/django/serializers/__init__.py
+END
+python.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/10/trunk/django_cmdb/wadofstuff/django/serializers/python.py
+END
